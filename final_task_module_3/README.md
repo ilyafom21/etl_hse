@@ -28,21 +28,21 @@ MongoDB → Airflow → PostgreSQL → витрины
 
 ## Структура проекта
 
+```text
 final_task_module_3/
 ├── airflow/
-│ └── dags/
-│ ├── mongo_to_postgres_dag.py
-│ └── marts_dag.py
+│   └── dags/
+│       ├── mongo_to_postgres_dag.py
+│       └── marts_dag.py
 ├── scripts/
-│ └── generate_mongo_data.py
+│   └── generate_mongo_data.py
 ├── sql/
-│ ├── create_tables.sql
-│ └── marts.sql
+│   ├── create_tables.sql
+│   └── marts.sql
 ├── init/
-│ └── init.sql
+│   └── init.sql
 ├── docker-compose.yml
 └── README.md
-
 ---
 
 ## Источник данных

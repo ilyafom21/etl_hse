@@ -43,6 +43,7 @@ final_task_module_3/
 │   └── init.sql
 ├── docker-compose.yml
 └── README.md
+```
 ---
 
 ## Источник данных
@@ -99,7 +100,6 @@ MongoDB содержит вложенные структуры и массивы
 - session_actions  
 - ticket_messages  
 
---
 
 ## Аналитический слой
 

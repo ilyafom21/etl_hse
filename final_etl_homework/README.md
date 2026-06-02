@@ -119,10 +119,6 @@ final_etl_homework/
 
 Для создания таблицы использовался SQL-скрипт create_food_prices.sql
 
-![create_food_prices.sql](task1_ydb_datatransfer/screenshots/create_food_prices.sql.png)
-
-Пример структуры таблицы:
-
 ```sql
 CREATE TABLE food_prices (
     countryiso3 Utf8,

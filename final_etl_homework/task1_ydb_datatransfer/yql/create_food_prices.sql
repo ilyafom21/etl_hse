@@ -1,0 +1,20 @@
+CREATE TABLE food_prices (
+    countryiso3 Utf8,
+    date Utf8,
+    admin1 Utf8,
+    admin2 Utf8,
+    market Utf8,
+    market_id Utf8,
+    latitude Utf8,
+    longitude Utf8,
+    category Utf8,
+    commodity Utf8,
+    commodity_id Utf8,
+    unit Utf8,
+    priceflag Utf8,
+    pricetype Utf8,
+    currency Utf8,
+    price Utf8,
+    usdprice Utf8,
+    PRIMARY KEY (countryiso3, date, commodity_id)
+);
